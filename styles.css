@@ -1,0 +1,49 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    background: url('lamborghini.jpg') no-repeat center center/cover;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border: 4px double #fff;
+}
+
+.box {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: #ffdd57;
+    text-shadow: 2px 2px 4px #000;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 10px 0;
+    color: #ffdd57;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.quote {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+    margin-top: 20px;
+}
